@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.aw_main {
+    background-image: url("3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.aw_content {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.aw_name {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 390px;
+    padding: 50px 50px;  
+    margin: 20px -220px;
+}
+.aw_age{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 360px;
+    padding: 10px 50px;  
+    margin: 20px -220px; 
+}
+.aw_months{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 385px;
+    padding: 5px 50px;  
+    margin: 20px -220px;  
+}
+.aw_weight{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 400px;
+    padding: 5px 50px;  
+    margin: 20px -220px;  
+}
+.aw_raw_food{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 300px;
+    padding: 5px 50px;  
+    margin: 20px -220px;  
+}
+.aw_adult_weight{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 230px;
+    padding: 5px 50px;  
+    margin: 20px -220px;  
+}
+.aw_senior_weight{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 230px;
+    padding: 5px 50px;  
+    margin: 20px -220px;  
+}
+.aw_activities{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 725px;
+    height: 430px;
+    padding: 5px 50px;  
+    margin: 20px -220px; 
+}
+.aw_data_raw{
+    margin: 40px 65px;
+}
+.aw_data {
+    margin: 40px 150px;
+}
+.aw_dog_name {
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 4px 0px;
+}
+label {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 0px;
+
+}
+
+.aw_next_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccc;
+    border: 1px solid #DFDFDF;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 14px 22px;
+    transition: all .2s;
+    width: 150px;
+    margin: 15px 70px;
+}
+.aw_next_btn:hover {
+    background-color: rgb(128, 134, 129, 1);
+    color: #FFFF;
+    border-color: rgba(0, 0, 0, 0.19);
+}
+.dogs_age {
+    display: none;
+}
+.dog_selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: #cccc;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.dog_selection:hover{
+    background-color: rgb(128, 134, 129, 1);
+    color: #FFFF;
+}
+.aw_yn_btn{
+    width: 300px;
+}
+.aw_raw_food{
+    margin: 0px -210px;
+}

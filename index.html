@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>Dog Quiz</title>
+</head>
+
+<body>
+    <div class="aw_main">
+        <div class="aw_content">
+
+            <div class="aw aw_name fz fz_name">
+                <div class="aw_data">
+                    <label>What is your dog Name?</label>
+                    <input type="text" class="aw_dog_name">
+                    <!-- <button class="aw_next_btn">Previous</button> -->
+                    <button class="aw_next_btn" data-next="1">Next</button>
+                </div>
+            </div>
+
+            <div class="aw aw-1 aw_age fz fz_age">
+                <div class="aw_data">
+
+                    <label>What is your dog age?</label>
+
+                    <label class="dog_selection" for="dog_age">
+                        <input type="radio" id="dog_age" name="age" class="dogs_age">
+                        Puppy</label>
+
+                    <label class="dog_selection" for="dog_age1">
+                        <input type="radio" id="dog_age1" name="age" class="dogs_age">
+                        Adult</label>
+
+                    <label class="dog_selection" for="dog_age2">
+                        <input type="radio" id="dog_age2" name="age" class="dogs_age">
+                        Senior</label>
+                    <button class="aw_next_btn" data-next="2">Next</button>
+                </div>
+            </div>
+
+            <div class="aw aw-2 aw_months fz fz_months">
+                <div class="aw_data">
+                    <label>Select months</label>
+
+                    <label class="dog_selection" for="dog_2_4">
+                        <input type="radio" id="dog_2_4" name="age" class="dogs_age">
+                        2 to 4 months</label>
+                    <label class="dog_selection" for="dog_4_6">
+                        <input type="radio" id="dog_4_6" name="age" class="dogs_age">
+                        4 to 6 months</label>
+
+                    <label class="dog_selection" for="dog_6_8">
+                        <input type="radio" id="dog_6_8" name="age" class="dogs_age">
+                        6 to 8 months</label>
+
+                    <label class="dog_selection" for="dog_8_12">
+                        <input type="radio" id="dog_8_12" name="age" class="dogs_age">
+                        8 to 12 months</label>
+                    <button class="aw_next_btn" data-next="3">Next</button>
+                </div>
+            </div>
+
+            <div class="aw aw-3 aw_weight fz fz_weight">
+                <div class="aw_data">
+                    <label>
+                        What's Your dog weight?
+                    </label>
+                    <label class="dog_selection" for="dog_8">
+                        <input type="radio" id="dog_8" name="age" class="dogs_age">
+                        8% of body weight (in grams)</label>
+
+                    <label class="dog_selection" for="dog_7">
+                        <input type="radio" id="dog_7" name="age" class="dogs_age">
+                        7% of body weight (in grams)</label>
+
+                    <label class="dog_selection" for="dog_6">
+                        <input type="radio" id="dog_6" name="age" class="dogs_age">
+                        6% of body weight (in grams)</label>
+
+                    <label class="dog_selection" for="dog_4">
+                        <input type="radio" id="dog_4" name="age" class="dogs_age">
+                        4.5% of body weight (in grams)</label>
+                    <button class="aw_next_btn" data-next="4">Next</button>
+                </div>
+            </div>
+
+            <div class="aw aw-4 aw_raw_food fz fz_food">
+                <div class="aw_data_raw">
+                    <label>Is your dog already eating raw food?</label>
+                    <button class="aw_next_btn aw_yn_btn">Yes</button>
+                    <button class="aw_next_btn aw_yn_btn">No</button>
+                </div>
+            </div>
+
+            <div class="aw_adult_weight fz fz_weight_a">
+                <div class="aw_data">
+                    <label>Your Adult dog weight</label>
+                    <label class="dog_selection" for="dog_bodyweight">
+                        <input type="radio" id="dog_bodyweight" name="age" class="dogs_age">
+                        2.5% of body weight (in grams)</label>
+                    <button class="aw_next_btn weight_next">Next</button>
+                </div>
+            </div>
+
+
+
+            <div class="aw_senior_weight fz fz_senior">
+                <div class="aw_data">
+                    <label for="">Your Senior dog weight</label>
+                    <label class="dog_selection" for="dog_bodyweight1">
+                        <input type="radio" id="dog_bodyweight1" name="age" class="dogs_age">
+                        2% of body weight (in grams)</label>
+                    <button class="aw_next_btn senior_next">Next</button>
+                </div>
+            </div>
+
+
+            <div class="aw_activities fz fz_activities">
+                <div class="aw_data">
+                    <label>
+                        What's Your dog Activies?
+                    </label>
+                    <label class="dog_selection" for="dog_AtHome">
+                        <input type="radio" id="dog_AtHome" name="age" class="dogs_age">
+                        stay at home -0.25%</label>
+
+                    <label class="dog_selection" for="dog_Hour">
+                        <input type="radio" id="dog_Hour" name="age" class="dogs_age">
+                        Less then one hour a day 0.%</label>
+
+                    <label class="dog_selection" for="dog_LessDay">
+                        <input type="radio" id="dog_LessDay" name="age" class="dogs_age">
+                        1 to 2 hours a day +0.5%</label>
+
+                    <label class="dog_selection" for="dog_LessHour">
+                        <input type="radio" id="dog_LessHour" name="age" class="dogs_age">
+                        2 to 3 hours a day +1%</label>
+                    <label class="dog_selection" for="dog_LessMinutes">
+                        <input type="radio" id="dog_LessMinutes" name="age" class="dogs_age">
+                        Over 3 hours- working dog +1.5%</label>
+                    <button class="aw_next_btn activies_next" data-next="4">Next</button>
+                </div>
+            </div>
+
+
+    </div>
+    </div>
+    <script src="style.js"> </script>
+</body>
+
+</html>
